@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 *{
     border: 0;
     margin: 0;
@@ -13,7 +16,6 @@ html,body{
     overflow-x: hidden !important;
 }
 body{
-    /* background:linear-gradient(to bottom, rgb(239, 190, 99) ,rgb(191, 234, 234)) !important; */
     background: rgb(191, 234, 234)!important;
 }
 .cms_form{
@@ -52,15 +54,9 @@ body{
 #logo_id{
    align-items: center;
 }
-#captcha-code{
+/* #captcha-code{
     background-color: rgb(185, 127, 255) !important;
-}
-/* .icons{
-    background-color:yellow;
-}
-.icons .fa{
-    font-size: 2vw;
-    color:black;
+    width:15vw;
 } */
 .pass-font{
     text-decoration: none;
@@ -69,5 +65,13 @@ body{
 .pass-font:hover{
     text-decoration: none !important;
     color:blueviolet;
-
+}
+#image{
+    background-image: radial-gradient( circle 592px at 48.2% 50%,  rgba(255,255,249,0.6) 0%, rgb(55, 121, 214) 74.6% );
+    user-select: none;
+    box-shadow: 0vw 0.1vw 0.4vw 0vw black;
+    font-size:x-large;
+    letter-spacing: 0.2vw;
+    color:rgb(0, 0, 128);
+    font-family: 'Rubik Distressed', cursive;
 }
