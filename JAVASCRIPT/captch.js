@@ -147,5 +147,5 @@ if (submit.placeholder) {
 		submit.placeholder = '';
   });
 } else {
-  input.placeholder.preventDefault()
+  submit.placeholder.preventDefault()
 };
