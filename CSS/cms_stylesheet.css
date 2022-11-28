@@ -75,3 +75,12 @@ body{
     color:rgb(0, 0, 128);
     font-family: 'Rubik Distressed', cursive;
 }
+#captcha-id{
+    margin-left: 8vw;
+}
+#captcha-icon-id{
+    margin-top: -3vw;
+}
+#user-input{
+    margin-top: 2vw;
+}
