@@ -95,8 +95,8 @@ body{
     #image{
         width: 15vw;
     }
-    #captcha-id{
-        /* padding-bottom:15vw;
-        position:relative; */
-    }
+    /* #captcha-id{
+        padding-bottom:15vw;
+        position:relative;
+    } */
 }
