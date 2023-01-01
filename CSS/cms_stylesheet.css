@@ -18,18 +18,21 @@ html,body{
 body{
     background: rgb(191, 234, 234)!important;
 }
+/*--------------FORM-------------*/
 .cms_form{
     margin:5vw;
 }
 .row{
     border-radius:2vw !important;
-    background-color: white !important;
+    background:white !important;
     box-shadow:0vw 0vw 2vw 0vw black !important;   
 }
+/*--------------HEADING-------------*/
 .cms_heading{
     font-family: 'DM Serif Text', serif;
     color: rgb(255, 136, 0);;
 }
+/*--------------SIDE IMAGE-------------*/
 #cms_side_img{
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
@@ -54,10 +57,6 @@ body{
 #logo_id{
    align-items: center;
 }
-/* #captcha-code{
-    background-color: rgb(185, 127, 255) !important;
-    width:15vw;
-} */
 .pass-font{
     text-decoration: none;
     font-weight: 500;
@@ -74,4 +73,30 @@ body{
     letter-spacing: 0.2vw;
     color:rgb(0, 0, 128);
     font-family: 'Rubik Distressed', cursive;
+}
+#captcha-id{
+    margin-left: 8vw;
+}
+#captcha-icon-id{
+    margin-top: -3vw;
+}
+#user-input{
+    margin-top:2vw;
+}
+@media(max-width:1250px){
+    #image{
+        letter-spacing: 0vw;
+    }
+}
+@media(max-width:991px){
+    #cms_side_img{
+        display: none !important;
+    }
+    #image{
+        width: 15vw;
+    }
+    #captcha-id{
+        /* padding-bottom:15vw;
+        position:relative; */
+    }
 }
