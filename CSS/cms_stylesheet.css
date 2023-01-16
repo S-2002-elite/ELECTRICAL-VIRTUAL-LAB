@@ -73,30 +73,56 @@ body{
     letter-spacing: 0.2vw;
     color:rgb(0, 0, 128);
     font-family: 'Rubik Distressed', cursive;
+    width:8vw;
 }
 #captcha-id{
     margin-left: 8vw;
 }
 #captcha-icon-id{
-    margin-top: -3vw;
+    margin-top: -3.2vw;
+    margin-left: 1vw;
 }
 #user-input{
     margin-top:2vw;
+    width:10vw;
 }
 @media(max-width:1250px){
     #image{
         letter-spacing: 0vw;
     }
 }
-@media(max-width:991px){
+@media(max-width:1210px){
+    #image{
+        width:8vw;
+        letter-spacing: 0vw;
+    }
+}
+@media(max-width:1200px){
+    #image{
+        width:9vw;
+        letter-spacing: 0vw;
+    }
+}
+@media(max-width:1130px){
+    #image{
+        width:10vw;
+        letter-spacing: 0vw;
+    }
+}
+@media(max-width:1105px){
+    #image{
+        width:10.5vw;
+        letter-spacing: 0vw;
+    }
+}
+@media(max-width:991.5px){
     #cms_side_img{
         display: none !important;
     }
     #image{
-        width: 15vw;
+        width: 11vw;
     }
-    /* #captcha-id{
-        padding-bottom:15vw;
-        position:relative;
-    } */
+}
+.forgot{
+    font-size: 1.5vw;
 }
