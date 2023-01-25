@@ -30,41 +30,39 @@
                     </div>
     <!--------------------------HEADING--------------------------------->
                     <h1 class="cms_heading">ELECTRICAL VIRTUAL LAB CMS</h1>
-                     <form>
+                     <form action="index.php" method="post">
     <!---------------------------USER-ID-------------------------------->
                          <div class="form-row">
                              <div class="col-lg-7">
-                                <input type="user-id" placeholder="User Id" class="form-control my-3 p-2">
+                                <input name="userid" type="user-id" placeholder="User Id" class="form-control my-3 p-2" required>
                              </div>
                          </div>
     <!---------------------------PASSWORD--------------------------------->
                          <div class="form-row">
                              <div class="col-lg-7">
-                                <input type="password" placeholder="Password" class="form-control my-3 p-2">
+                                <input name="password" type="password" placeholder="Password" class="form-control my-3 p-2" required>
                              </div>
                          </div>
     <!---------------------------CAPTCHA----------------------------------->
-                    <div class="form-row">
+                    <!-- <div class="form-row">
                         <div  class="col-lg-2" id="captcha-container">
                             <div id="image" class="in_line p-2" selectable="False">
-                            </div>
+                            </div> -->
     <!---------------------------CAPTCH ICON------------------------------->
-                             <div class="in_line" id="captcha-icon-id" onclick="generate()">
-                                 <!-- <button class="captcha-icon"> -->
+                             <!-- <div class="in_line" id="captcha-icon-id" onclick="generate()">
                                   <i class="fas fa-sync-alt mt-3" id="captcha-id"></i>
-                                 <!-- </button> -->
-                             </div>
+                             </div> -->
     <!-------------------------CAPTCH PLACEHOLDER----------------------------->                             
-                            <div id="user-input" class="in_line">
+                            <!-- <div id="user-input" class="in_line">
                             <input type="text" placeholder="Captcha" id="submit" class="form-control my-2 p-2">
                             </div>
                             <p id="key"></p>
                         </div> 
-                    </div>
+                    </div> -->
     <!------------------------------LOGIN-------------------------------------->
                                  <div class="form-row">
                              <div class="col-lg-7">
-                                <button type="submit" id="form_button" class="btn1 mt-2 mb-3" onclick="printmsg()">LOGIN</button>
+                                <button  name="login" value="Login" type="submit" id="form_button" class="btn1 mt-2 mb-3" onclick="printmsg()">LOGIN</button>
                              </div>
                          </div>
     <!-------------------------FORGOT PASSWORD---------------------------------->
